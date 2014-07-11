@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25DED843196F680500E01AA0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25DED842196F680500E01AA0 /* main.cpp */; };
+		25DED843196F680500E01AA0 /* ReadInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25DED842196F680500E01AA0 /* ReadInput.cpp */; };
 		25DED845196F680500E01AA0 /* ReditDailyChallenges.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25DED844196F680500E01AA0 /* ReditDailyChallenges.1 */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +26,7 @@
 
 /* Begin PBXFileReference section */
 		25DED83F196F680500E01AA0 /* ReditDailyChallenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReditDailyChallenges; sourceTree = BUILT_PRODUCTS_DIR; };
-		25DED842196F680500E01AA0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		25DED842196F680500E01AA0 /* ReadInput.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReadInput.cpp; sourceTree = "<group>"; };
 		25DED844196F680500E01AA0 /* ReditDailyChallenges.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ReditDailyChallenges.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,7 +60,7 @@
 		25DED841196F680500E01AA0 /* ReditDailyChallenges */ = {
 			isa = PBXGroup;
 			children = (
-				25DED842196F680500E01AA0 /* main.cpp */,
+				25DED842196F680500E01AA0 /* ReadInput.cpp */,
 				25DED844196F680500E01AA0 /* ReditDailyChallenges.1 */,
 			);
 			path = ReditDailyChallenges;
@@ -117,7 +117,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25DED843196F680500E01AA0 /* main.cpp in Sources */,
+				25DED843196F680500E01AA0 /* ReadInput.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +227,7 @@
 				25DED84A196F680500E01AA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
