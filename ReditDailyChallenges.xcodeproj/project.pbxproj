@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25DED843196F680500E01AA0 /* ReadInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25DED842196F680500E01AA0 /* ReadInput.cpp */; };
 		25DED845196F680500E01AA0 /* ReditDailyChallenges.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25DED844196F680500E01AA0 /* ReditDailyChallenges.1 */; };
+		25E7292119710D200077044A /* BlackJackChecker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25E7291F19710D200077044A /* BlackJackChecker.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +28,7 @@
 		25DED83F196F680500E01AA0 /* ReditDailyChallenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReditDailyChallenges; sourceTree = BUILT_PRODUCTS_DIR; };
 		25DED842196F680500E01AA0 /* ReadInput.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReadInput.cpp; sourceTree = "<group>"; };
 		25DED844196F680500E01AA0 /* ReditDailyChallenges.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ReditDailyChallenges.1; sourceTree = "<group>"; };
+		25E7291F19710D200077044A /* BlackJackChecker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BlackJackChecker.cpp; path = ReditDailyChallenges/BlackJackChecker.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		25DED836196F680500E01AA0 = {
 			isa = PBXGroup;
 			children = (
+				25E7293D19710F090077044A /* BlackJackChecker */,
 				25DED841196F680500E01AA0 /* ReditDailyChallenges */,
 				25DED840196F680500E01AA0 /* Products */,
 			);
@@ -64,6 +66,14 @@
 				25DED844196F680500E01AA0 /* ReditDailyChallenges.1 */,
 			);
 			path = ReditDailyChallenges;
+			sourceTree = "<group>";
+		};
+		25E7293D19710F090077044A /* BlackJackChecker */ = {
+			isa = PBXGroup;
+			children = (
+				25E7291F19710D200077044A /* BlackJackChecker.cpp */,
+			);
+			name = BlackJackChecker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,7 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25DED843196F680500E01AA0 /* ReadInput.cpp in Sources */,
+				25E7292119710D200077044A /* BlackJackChecker.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
