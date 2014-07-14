@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		25DED845196F680500E01AA0 /* ReditDailyChallenges.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25DED844196F680500E01AA0 /* ReditDailyChallenges.1 */; };
-		25E7292119710D200077044A /* BlackJackChecker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25E7291F19710D200077044A /* BlackJackChecker.cpp */; };
+		25E729411971FB530077044A /* RummyChecker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25E7293F1971FB530077044A /* RummyChecker.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +29,7 @@
 		25DED842196F680500E01AA0 /* ReadInput.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReadInput.cpp; sourceTree = "<group>"; };
 		25DED844196F680500E01AA0 /* ReditDailyChallenges.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ReditDailyChallenges.1; sourceTree = "<group>"; };
 		25E7291F19710D200077044A /* BlackJackChecker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BlackJackChecker.cpp; path = ReditDailyChallenges/BlackJackChecker.cpp; sourceTree = "<group>"; };
+		25E7293F1971FB530077044A /* RummyChecker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RummyChecker.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 		25DED836196F680500E01AA0 = {
 			isa = PBXGroup;
 			children = (
+				25E7293E1971FB3E0077044A /* RummyChecker */,
 				25E7293D19710F090077044A /* BlackJackChecker */,
 				25DED841196F680500E01AA0 /* ReditDailyChallenges */,
 				25DED840196F680500E01AA0 /* Products */,
@@ -74,6 +76,14 @@
 				25E7291F19710D200077044A /* BlackJackChecker.cpp */,
 			);
 			name = BlackJackChecker;
+			sourceTree = "<group>";
+		};
+		25E7293E1971FB3E0077044A /* RummyChecker */ = {
+			isa = PBXGroup;
+			children = (
+				25E7293F1971FB530077044A /* RummyChecker.cpp */,
+			);
+			name = RummyChecker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25E7292119710D200077044A /* BlackJackChecker.cpp in Sources */,
+				25E729411971FB530077044A /* RummyChecker.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
