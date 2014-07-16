@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		251553C01974796B0064046D /* 2DArrayRotator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 251553BE1974796B0064046D /* 2DArrayRotator.cpp */; };
 		25DED845196F680500E01AA0 /* ReditDailyChallenges.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25DED844196F680500E01AA0 /* ReditDailyChallenges.1 */; };
-		25E729411971FB530077044A /* RummyChecker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 25E7293F1971FB530077044A /* RummyChecker.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		251553BE1974796B0064046D /* 2DArrayRotator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 2DArrayRotator.cpp; sourceTree = "<group>"; };
 		25DED83F196F680500E01AA0 /* ReditDailyChallenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReditDailyChallenges; sourceTree = BUILT_PRODUCTS_DIR; };
 		25DED842196F680500E01AA0 /* ReadInput.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReadInput.cpp; sourceTree = "<group>"; };
 		25DED844196F680500E01AA0 /* ReditDailyChallenges.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ReditDailyChallenges.1; sourceTree = "<group>"; };
@@ -43,9 +44,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		251553BD1974794C0064046D /* 2D Array Rotator */ = {
+			isa = PBXGroup;
+			children = (
+				251553BE1974796B0064046D /* 2DArrayRotator.cpp */,
+			);
+			name = "2D Array Rotator";
+			sourceTree = "<group>";
+		};
 		25DED836196F680500E01AA0 = {
 			isa = PBXGroup;
 			children = (
+				251553BD1974794C0064046D /* 2D Array Rotator */,
 				25E7293E1971FB3E0077044A /* RummyChecker */,
 				25E7293D19710F090077044A /* BlackJackChecker */,
 				25DED841196F680500E01AA0 /* ReditDailyChallenges */,
@@ -137,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25E729411971FB530077044A /* RummyChecker.cpp in Sources */,
+				251553C01974796B0064046D /* 2DArrayRotator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

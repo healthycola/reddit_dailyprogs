@@ -315,7 +315,7 @@ int main(int argc, char** argv)
     
     SetLength = 4;
     cout << "Checking for a set with length " << SetLength << "\n";
-    swappedCard = myHand.CheckForRun(*swappableCard);
+    swappedCard = myHand.CheckForSet(*swappableCard);
     outputWin(swappedCard);
     
     
